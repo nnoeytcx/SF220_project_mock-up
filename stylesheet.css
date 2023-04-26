@@ -36,6 +36,12 @@ body {
     text-align: center;
   }
 
+  .lotext{
+    font-size: 32px;
+    color: black;
+    text-align: center;
+  }
+
   .ntext{
     font-size: 16px;
     color: black;
@@ -43,6 +49,7 @@ body {
 
   .med {
     height: 20px;
+    width: 20px;
   }
 
   .head {
