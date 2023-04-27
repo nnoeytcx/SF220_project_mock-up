@@ -10,6 +10,22 @@ body {
     width: 100vw;
     height: 100vh; 
   }
+
+  .main_section.main_section_with_left_section{
+    width: calc(100vw - 108px);
+    position: fixed;
+    right: 0px;
+  }
+
+  .left_section{
+    width: 108px;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    border: 1px solid black;
+    padding: 18px;
+
+  }
   
   .flex-container{
     width: 100%;
@@ -25,7 +41,7 @@ body {
     border: 1px solid black;
     position: relative;
   }
-  
+
   .flex-container .half_section:last-child{
     border-left: 0px;
   }
@@ -35,6 +51,14 @@ body {
     color: black;
     text-align: center;
   }
+
+  .batext{
+    font-size: 24px;
+    color: black; 
+    text-align: left;
+    padding: 15px
+  }
+
 
   .lotext{
     font-size: 32px;
@@ -56,4 +80,98 @@ body {
     height: 80px;
   }
 
-  
+  .menu_bar{
+    width: calc(100vw - 108px);
+    height: 72px;
+    position: fixed;
+    right: 0px;
+    border: 1px solid black;
+  }
+
+  .dot {
+    height: 72px;
+    width: 72px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+  }
+
+  .fixicon{
+    position: fixed;
+    right: 20px;
+    top: 12px;
+  }
+
+  .coloricon1{
+    height: 36px;
+    width: 36px;
+    background-color: #acacac;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    top: 84px;
+    left: 120px;
+  }
+
+  .coloricon2{
+    height: 36px;
+    width: 36px;
+    background-color: #75afd6;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    top: 84px;
+    left: 320px;
+  }
+
+  .coloricon3{
+    height: 36px;
+    width: 36px;
+    background-color: #dbd57d;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    top: 84px;
+    left: 520px;
+  }
+
+  .coloricon4{
+    height: 36px;
+    width: 36px;
+    background-color: #6ee66e;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    top: 84px;
+    left: 720px;
+  }
+
+  .baricon{
+    position: fixed;
+    left: 36px;
+  }
+
+  .tbox {
+    height: 84px;
+    width: 84px;
+    border-radius: 12px;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tabledot {
+    height: 52px;
+    width: 52px;
+    background-color: #acacac;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
